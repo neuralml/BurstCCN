@@ -10,7 +10,7 @@ To install the requrired packages, create a new conda environment using:
 conda create --name <env> --file requirements.txt
 ```
 
-## Training the model
+## Training the discrete-time model
 
 
 ### Command line
@@ -71,4 +71,16 @@ Run the jupyter notebook using the command:
 
 ```
 jupyter notebook "Training BurstCCN on MNIST.ipynb"
+```
+
+
+## Training the continuous-time model
+
+To train the continuous-time burstccn on a non-linear regression task, first set up a [wandb](wandb.ai) project and then simply use the command:
+
+```
+python train_continuous_model.py --run_name=RUN_NAME 
+                      --wandb_project=WANDB_PROJECT 
+                      --wandb_entity=WANDB_ENTITY 
+                      --model_type=burstccn
 ```
