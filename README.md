@@ -15,7 +15,7 @@ conda create --name <env> --file requirements.txt
 
 ### Command line
 
-To train the burstccn model on MNIST, first set up a [wandb](wandb.ai) project and then simply use the command:
+To train the burstccn model on MNIST, first set up a [wandb](https://www.wandb.ai) project and then simply use the command:
 
 ```
 python train_model.py --run_name=RUN_NAME 
@@ -76,7 +76,7 @@ jupyter notebook "Training BurstCCN on MNIST.ipynb"
 
 ## Training the continuous-time model
 
-To train the continuous-time burstccn on a non-linear regression task, first set up a [wandb](wandb.ai) project and then simply use the command:
+To train the continuous-time burstccn on a non-linear regression task, first set up a [wandb](https://www.wandb.ai) project and then simply use the command:
 
 ```
 python train_continuous_model.py --run_name=RUN_NAME 
