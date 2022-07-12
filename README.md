@@ -7,7 +7,7 @@ This repository contains the code to run the BurstCCN, Burstprop and EDN models 
 To install the requrired packages, create a new conda environment using:
 
 ```
-conda create --name <env> --file requirements.txt
+conda env create -f environment.yaml
 ```
 
 ## Training the discrete-time model

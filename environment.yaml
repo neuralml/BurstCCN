@@ -1,0 +1,14 @@
+name: burstccn
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - cudatoolkit=11.3.1=h59b6b97_2
+  - numpy=1.22.3=py310h6d2d95c_0
+  - pip=22.1.2=py310haa95532_0
+  - python=3.10.4=hbb2ffb3_0
+  - pytorch=1.12.0=py3.10_cuda11.3_cudnn8_0
+  - torchvision=0.13.0=py310_cu113
+  - tqdm=4.64.0=py310haa95532_0
+  - pip:
+    - wandb==0.12.21
